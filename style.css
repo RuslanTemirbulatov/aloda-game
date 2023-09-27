@@ -303,8 +303,14 @@ button::-moz-focus-inner {
 
 @media screen and (max-width: 1850px)  {
     .section__2 {
-        background-size: 170% ;
+        background-size: 150% ;
         height: 120vh;
-        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1280px)  {
+    .section__2 {
+        background-size: 180% ;
+        height: 140vh;
     }
 }
