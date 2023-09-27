@@ -1,0 +1,292 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    color: inherit;
+    text-decoration: none;
+    /* display: inline-block; */
+}
+
+a:hover  {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+.section__1 {
+    max-height: 100%;
+    max-width: 100vw;
+    background-image: url(./img/bg-img.png) ;
+    background-size:  100%;
+    background-repeat: no-repeat;
+    background-position-y: -8px;
+    position: relative;
+}
+
+/* .bg__img {
+    max-height: 100vh;
+    max-width: 100vw;
+    background-image: url(./img/glow\ 1.png);
+    opacity: 0.3;
+    background-position: center center;
+    background-size: 100%;
+
+} */
+
+.logo {
+    position: absolute;
+    left: 800px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+.shadow {
+    box-shadow: inset 150px -150px 150px 150px rgba(4, 4, 9, 0.8);
+    overflow: hidden;
+}
+
+
+.content__sect1__images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+
+}
+
+.hero__1 {
+    width: 577px;
+    height: 876px;
+}
+.boxes {
+    position: absolute;
+    left: 658px;
+    top: 215px;
+    width: 766px;
+    height: 525px;
+}
+
+.hero__2 {
+    width: 678px;
+    height: 876px;
+}
+
+.content__sect1__title {
+    position: absolute;
+    top: 750px;
+    left: 500px;
+    text-align: center;
+}
+
+.content__sect1__title h1 {
+    font-family: Roboto Condensed;
+    font-weight: 700;
+    font-size: 42px;
+    color: #fff;
+}
+
+.content__sect1__title p {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #fff;
+}
+
+.section__2 {
+    background-image: url(./img/bg-2.png);
+    background-size: 120% ;
+    height: 115vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.content__sect2 {
+    display: flex;
+    background-image: url(./img/Ellipse\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position-y: -80px;
+    background-position-x: 80px;
+    position: relative;
+}
+
+
+.content__sect2__left {
+    height: 90vh;
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.content__sect2__left img {
+    margin-left: 350px;
+}
+
+.content__sect2__right {
+    height: 90vh;
+    min-width: 632px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.content__sect2__title {
+    margin: 50px 0 35px 0;
+    color: #416DF4;
+    font-family: Roboto Condensed;
+    font-size: 30px;
+}
+
+.content__sect2__btns {
+    display: flex;
+    justify-content: flex-end;
+    color: #671D00;
+    font-family: Roboto;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.content__sect2__btns button {
+    margin-left: 10px;
+    width: 140px;
+    height: 23px;
+    border: 1px solid #671D00;
+    
+}
+.content__sect2__card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #671D00;
+    height: 74px;
+    margin-bottom: 5px;
+}
+
+
+
+.content__sect2__card h3 {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #fff;
+}
+
+.card__title {
+    width: 229px;
+}
+
+.content__sect2__desc {
+    margin-left: 15px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.content__sect2__buy {
+    display: flex;
+    margin-top: 40px;
+}
+.content__sect2__button {
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.content__sect2__button h1 {
+    font-size: 50px;
+    color: #fff;
+}
+.content__sect2__button button {
+    border-radius: 7px;
+    width: 180px;
+    height: 40px;
+    background-color: #FCFF00;
+}
+.blue__bottom {
+    display: flex;
+    justify-content: center;
+}
+.blue__bottom img {
+}
+
+
